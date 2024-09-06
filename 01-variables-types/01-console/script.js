@@ -37,3 +37,36 @@ console.log(1+"1"+"a"+NaN)
 console.log(1+NaN)
 console.log("1"+NaN)
 
+console.log(8>>1)
+console.log(8<<1)
+console.log(889^1)
+
+console.log(8**2) // square
+
+//Type coersion
+let x = 5 + '5'
+
+x = 5 * '5'
+
+x = 5 + null
+
+x = Number(true)
+
+x = Number(false)
+
+x = 5 + true
+
+x = 5 + undefined
+
+x = true == 1
+
+x = false == 0
+
+x = true == 6
+
+console.log(x+" "+ typeof x)
+
+
+
+
+
