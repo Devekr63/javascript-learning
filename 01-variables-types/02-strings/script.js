@@ -18,3 +18,7 @@ console.log(s)
 
 s = student.name.replace("Kumar", "Rao")
 console.log(s)
+
+let str = "india"
+str = str.charAt(0).toUpperCase() + str.substring(1)
+console.log(str)
