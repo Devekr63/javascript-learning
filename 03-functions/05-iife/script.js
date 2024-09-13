@@ -24,3 +24,7 @@ const sum1 = add(x, y)
 const sum2 = add(10, 25)
 
 console.log(sum1, sum2)
+
+if(function(){}){
+    console.log("Hello")
+}
